@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131215154754) do
+ActiveRecord::Schema.define(version: 20131215162704) do
 
   create_table "carts", force: true do |t|
     t.datetime "created_at"
