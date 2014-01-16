@@ -33,3 +33,7 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# others
+.DS_Store
+config/database.yml
