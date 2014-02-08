@@ -10,6 +10,8 @@
   </tr>
 </table>
 
+<%= button_to "CheckOut", new_order_path, method: :get %>
+
 <%= button_to 'Empty Cart', cart, method: :delete, data: { confirm: 'Are you sure?'} %>
 
 <% end %>
