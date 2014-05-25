@@ -1,5 +1,7 @@
 class CartsController < ApplicationController
   include CurrentCart
+  
+  skip_before_action :authorize, only: [:create, :update, :destroy]
 
   before_action :set_cart, only: [:new, :create]
 
